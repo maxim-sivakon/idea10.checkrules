@@ -1,0 +1,100 @@
+.icon-panel-wrapper {
+  display: flex;
+  grid-gap: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 23px;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid darkgray;
+
+  .icon-panel-item {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &.country {
+      &.uz {
+        background-image: url(/local/modules/istline.checkrules/img/uzbek.jpg);
+      }
+
+      &.ar {
+        background-image: url(/local/modules/istline.checkrules/img/armenia.jpg);
+      }
+
+      &.bel {
+        background-image: url(/local/modules/istline.checkrules/img/belarus.jpg);
+      }
+
+      &.kaz {
+        background-image: url(/local/modules/istline.checkrules/img/kaz.jpg);
+      }
+
+      &.kir {
+        background-image: url(/local/modules/istline.checkrules/img/kir.jpg);
+      }
+
+      &.world {
+        background-image: url(/local/modules/istline.checkrules/img/world.jpg);
+      }
+    }
+
+    &.contragent-type {
+      &.buyer {
+        background-image: url(/local/modules/istline.checkrules/img/buyer.jpg);
+      }
+
+      &.provider {
+        background-image: url(/local/modules/istline.checkrules/img/provider.jpg);
+      }
+    }
+
+    &.percent {
+      &.red {
+        background-image: url(/local/modules/istline.checkrules/img/percent-red.jpg);
+      }
+
+      &.green {
+        background-image: url(/local/modules/istline.checkrules/img/percent-green.jpg);
+      }
+    }
+
+    &.terms-delivery {
+      &.cpt {
+        background-image: url(/local/modules/istline.checkrules/img/cpt.jpg);
+      }
+
+      &.dap {
+        background-image: url(/local/modules/istline.checkrules/img/dap.jpg);
+      }
+
+      &.exw {
+        background-image: url(/local/modules/istline.checkrules/img/exw.jpg);
+      }
+
+      &.fca {
+        background-image: url(/local/modules/istline.checkrules/img/fca.jpg);
+      }
+    }
+
+    &.company-status {
+      &.status_a {
+        background-image: url(/local/modules/istline.checkrules/img/status_a.jpg);
+      }
+
+      &.status_b {
+        background-image: url(/local/modules/istline.checkrules/img/status_b.jpg);
+      }
+
+      &.status_c {
+        background-image: url(/local/modules/istline.checkrules/img/status_c.jpg);
+      }
+    }
+  }
+}
+.crm-kanban-item-last-activity-by{
+  display: none;
+}

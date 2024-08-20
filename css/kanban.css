@@ -1,0 +1,53 @@
+.icon-panel-wrapper {
+  display: flex;
+  grid-gap: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 23px;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid darkgray; }
+  .icon-panel-wrapper .icon-panel-item {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .icon-panel-wrapper .icon-panel-item.country.uz {
+      background-image: url(/local/modules/istline.checkrules/img/uzbek.jpg); }
+    .icon-panel-wrapper .icon-panel-item.country.ar {
+      background-image: url(/local/modules/istline.checkrules/img/armenia.jpg); }
+    .icon-panel-wrapper .icon-panel-item.country.bel {
+      background-image: url(/local/modules/istline.checkrules/img/belarus.jpg); }
+    .icon-panel-wrapper .icon-panel-item.country.kaz {
+      background-image: url(/local/modules/istline.checkrules/img/kaz.jpg); }
+    .icon-panel-wrapper .icon-panel-item.country.kir {
+      background-image: url(/local/modules/istline.checkrules/img/kir.jpg); }
+    .icon-panel-wrapper .icon-panel-item.country.world {
+      background-image: url(/local/modules/istline.checkrules/img/world.jpg); }
+    .icon-panel-wrapper .icon-panel-item.contragent-type.buyer {
+      background-image: url(/local/modules/istline.checkrules/img/buyer.jpg); }
+    .icon-panel-wrapper .icon-panel-item.contragent-type.provider {
+      background-image: url(/local/modules/istline.checkrules/img/provider.jpg); }
+    .icon-panel-wrapper .icon-panel-item.percent.red {
+      background-image: url(/local/modules/istline.checkrules/img/percent-red.jpg); }
+    .icon-panel-wrapper .icon-panel-item.percent.green {
+      background-image: url(/local/modules/istline.checkrules/img/percent-green.jpg); }
+    .icon-panel-wrapper .icon-panel-item.terms-delivery.cpt {
+      background-image: url(/local/modules/istline.checkrules/img/cpt.jpg); }
+    .icon-panel-wrapper .icon-panel-item.terms-delivery.dap {
+      background-image: url(/local/modules/istline.checkrules/img/dap.jpg); }
+    .icon-panel-wrapper .icon-panel-item.terms-delivery.exw {
+      background-image: url(/local/modules/istline.checkrules/img/exw.jpg); }
+    .icon-panel-wrapper .icon-panel-item.terms-delivery.fca {
+      background-image: url(/local/modules/istline.checkrules/img/fca.jpg); }
+    .icon-panel-wrapper .icon-panel-item.company-status.status_a {
+      background-image: url(/local/modules/istline.checkrules/img/status_a.jpg); }
+    .icon-panel-wrapper .icon-panel-item.company-status.status_b {
+      background-image: url(/local/modules/istline.checkrules/img/status_b.jpg); }
+    .icon-panel-wrapper .icon-panel-item.company-status.status_c {
+      background-image: url(/local/modules/istline.checkrules/img/status_c.jpg); }
+
+.crm-kanban-item-last-activity-by {
+  display: none; }
